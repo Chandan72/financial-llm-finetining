@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data files
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.txt
+*.pkl
+*.joblib
+
+# Model files
+*.bin
+*.pt
+*.pth
+models/*/pytorch_model.bin
+models/*/model.safetensors
+
+# Logs
+logs/
+*.log
+wandb/
+mlruns/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
